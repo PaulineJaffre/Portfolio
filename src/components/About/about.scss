@@ -1,0 +1,33 @@
+.aproposContainer{
+    margin: 50px 0 50px 0;
+    color: #222288;
+}
+
+.aproposContainer h2{
+    margin-top: 50px;
+}
+
+.about{
+   position: relative;
+   margin: 80px 0 100px 0;
+}
+
+.circleAbout{
+    display: flex;
+    align-items: center;
+    color: #ff223454;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14em;
+}
+
+.aproposParagraphe{
+    margin: 0 auto;
+    z-index: 2;
+    color: #222288;
+    position: relative;
+    text-align: center;
+}
