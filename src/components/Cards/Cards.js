@@ -12,8 +12,8 @@ export default function Cards(){
 
     return (
         <div>
-            <div>
-                <h2>Réalisations</h2>
+            <div className='cardTitle'>
+                <h2 >Réalisations</h2>
             </div>
             <section className='container-cards'>
                 {datas.map((data)=> (

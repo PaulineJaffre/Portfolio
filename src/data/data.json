@@ -17,7 +17,7 @@
         "id": "2",
         "title": "Portfolio Sophie Bluel",
         "image": "assets/sophie.png",
-        "description": "Intégration d'une page web dynamique en Javascript. Affichage, création, modification, suppression de travaux en faisant appel aux APIs du backend ",
+        "description": "Intégration d'une page web dynamique en Javascript. Affichage, création, modification, suppression de travaux en faisant appel aux APIs du backend. ",
         "lienGithub": "https://github.com/PaulineJaffre/Portfolio-architecte.git",
         "technos": [
             "HTML",
@@ -28,7 +28,7 @@
     {
         "statut": "terminé",
         "id": "3",
-        "title": "KASA",
+        "title": "Kasa",
         "image": "assets/kasa.png",
         "description": "Création d'une application web de location immobilière avec React en mettant en place des composants réutilisables. ",
         "lienGithub": "https://github.com/PaulineJaffre/Kasa.git",
@@ -42,7 +42,7 @@
         "id": "4",
         "title": "Mon vieux grimoire",
         "image": "assets/grimoire.png",
-        "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD",
+        "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD.",
         "lienGithub": "https://github.com/PaulineJaffre/MonVieuxGrimoire.git",
         "technos": [
             "Node.js",

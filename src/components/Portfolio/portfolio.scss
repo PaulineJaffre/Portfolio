@@ -1,20 +1,12 @@
 
-.container-cards{
-    margin: 30px 0 30px 0;
-	display: flex;
-	align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;
-}
+
 
 .portfolio {
     width: 80%;
     color: #ffff;
     background-color: #ff2281;
     border-radius: 20px;
-    padding: 15px;
+    padding: 30px;
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
@@ -35,6 +27,29 @@
 
 .portfolioTitle {
     color: white;
+}
+
+.description {
+    padding: 0 50px;
+}
+
+.lienGithub{
+    text-decoration: none;
+    color: #ffff;
+    border: 2px solid #ffff;
+    background-color: #ff2281;
+    border-radius: 20px;
+    width: 30%;
+}
+
+
+
+.technosTags button {
+    margin: 40px;
+    border-radius: 20px;
+    width: 15%;
+    color: #222288;
+
 }
 
 @media screen and (min-width: 768px)and (max-width: 980px){
