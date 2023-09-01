@@ -3,9 +3,9 @@
         "statut": "terminé",
         "id": "1",
         "title": "Booki",
-        "imageUrl": "images/Booki.webp",
+        "image": "assets/booki.png",
         "description": "Intégration d'une interface responsive conformément à une maquette Figma avec HTML et CSS",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenclassroomsProject2",
+        "lienGithub": "https://github.com/PaulineJaffre/Booki.git",
         "technos": [
             "HTML",
             "CSS",
@@ -16,9 +16,9 @@
         "statut": "terminé",
         "id": "2",
         "title": "Portfolio Sophie Bluel",
-        "imageUrl": "images/Sophie_Bluel.webp",
+        "image": "assets/sophie.png",
         "description": "Intégration d'une page web dynamique en Javascript. Affichage, création, modification, suppression de travaux en faisant appel aux APIs du backend ",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet3",
+        "lienGithub": "https://github.com/PaulineJaffre/Portfolio-architecte.git",
         "technos": [
             "HTML",
             "CSS",
@@ -29,9 +29,9 @@
         "statut": "terminé",
         "id": "3",
         "title": "KASA",
-        "imageUrl": "images/KASA.webp",
+        "image": "assets/kasa.png",
         "description": "Création d'une application web de location immobilière avec React en mettant en place des composants réutilisables. ",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProject6",
+        "lienGithub": "https://github.com/PaulineJaffre/Kasa.git",
         "technos": [
             "React",
             "CSS"
@@ -41,9 +41,9 @@
         "statut": "terminé",
         "id": "4",
         "title": "Mon vieux grimoire",
-        "imageUrl": "images/monvieuxgrimoire.webp",
+        "image": "assets/grimoire.png",
         "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7",
+        "lienGithub": "https://github.com/PaulineJaffre/MonVieuxGrimoire.git",
         "technos": [
             "Node.js",
             "Express.js",

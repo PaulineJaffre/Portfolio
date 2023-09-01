@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialmedia'>
-                    </div>
+        </div>
         <div className='copyright'>
             <p>© 2023 Pauline Jaffré. All rights reserved</p>
         </div>

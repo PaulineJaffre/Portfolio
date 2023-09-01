@@ -25,9 +25,9 @@ function Contact() {
   };
 
   return (
-    <div className="contact-form">
-      <h2>Contactez-moi</h2>
-      <form onSubmit={handleSubmit}>
+    <div className='contactContainer'>
+      <h2 >Contactez-moi</h2>
+      <form className="contact-form" onSubmit={handleSubmit}>
         <label>Nom</label>
         <input
           type="text"
