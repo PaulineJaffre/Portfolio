@@ -30,43 +30,59 @@
     color: #FF2281;
 }
 
-@media screen and (min-width: 768px) and (max-width: 980px){
-
-    .navLogo{
-        width: 30vw;
+/* Styles pour les tablettes (largeur d'écran jusqu'à 768px) */
+@media (max-width: 768px) {
+    .navigation {
+        padding: 10px; /* Réduisez la marge pour les tablettes */
+        flex-direction: column; /* Changez la direction de flex pour empiler les éléments */
+        align-items: center; /* Centrez les éléments */
     }
 
-    .navbar li {
-        width: 20vw;
-    }
-}
-
-@media screen and (max-width: 768px){
-
-    .navigation{
-        justify-content: space-around;
+    .navLogo {
+        align-items: center; /* Centrez le logo pour les tablettes */
     }
 
-    .kasa-logo{
-        width: 30vw;
+    .portfolio-logo {
+        width: 300px; /* Réduisez la largeur du logo pour les tablettes */
     }
 
     .navbar ul {
-        margin: 0;
-        padding-left: 10px;
+        font-size: 18px; /* Réduisez la taille de la police pour les tablettes */
+        margin-top: 10px; /* Ajoutez de l'espace en haut pour les tablettes */
     }
 
     .navLink {
+        padding-left: 0; /* Réinitialisez l'espacement des liens pour les tablettes */
+        margin-top: 10px; /* Ajoutez de l'espace entre les liens pour les tablettes */
+        text-align: center; /* Centrez le texte des liens */
+    }
+}
+
+/* Styles pour les téléphones (largeur d'écran jusqu'à 480px) */
+@media (max-width: 480px) {
+    .navigation {
+        padding: 5px; /* Réduisez la marge pour les téléphones */
+        margin-top: 10px;
+    }
+
+    .navLogo {
+        align-items: center; /* Centrez le logo pour les téléphones */
+    }
+
+    .portfolio-logo {
+        width: 200px; /* Réduisez davantage la largeur du logo pour les téléphones */
+    }
+
+    .navbar ul {
+        font-size: 16px; /* Réduisez davantage la taille de la police pour les téléphones */
+        margin-top: 5px; /* Ajoutez de l'espace en haut pour les téléphones */
         padding-left: 0;
     }
 
-    .navbar ul{
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 34px;  
-    }
-
-    .navbar li{
-        width: 30vw;
+    .navLink {
+        padding-left: 0; /* Réinitialisez l'espacement des liens pour les téléphones */
+        margin: 20px; /* Ajoutez de l'espace entre les liens pour les téléphones */
+        text-align: center; /* Centrez le texte des liens */
+        
     }
 }

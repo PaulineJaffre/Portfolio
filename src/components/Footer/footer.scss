@@ -18,3 +18,17 @@
 
 }
 
+
+/* Styles pour les tablettes (largeur d'écran jusqu'à 768px) */
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px; /* Réduisez la marge intérieure pour les tablettes */
+    }
+}
+
+/* Styles pour les téléphones (largeur d'écran jusqu'à 480px) */
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px; /* Réduisez la marge intérieure pour les téléphones */
+    }
+}

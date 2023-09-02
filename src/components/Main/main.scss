@@ -16,3 +16,37 @@
     width: 817px;
     height: 817px;
 }
+
+/* Styles pour les tablettes (largeur d'écran jusqu'à 768px) */
+@media (max-width: 768px) {
+    .main {
+        padding: 30px 0; /* Réduisez la marge intérieure pour les tablettes */
+        flex-direction: column; /* Changez la direction de flex pour empiler les éléments */
+        text-align: center; /* Centrez le contenu */
+    }
+
+    .h1-content {
+        font-size: 1.5em; /* Réduisez la taille de la police pour les tablettes */
+    }
+
+    .imgpauline {
+        max-width: 80%; /* Réduisez la largeur maximale de l'image pour les tablettes */
+        height: auto; /* Assurez-vous que l'aspect ratio de l'image est conservé */
+    }
+}
+
+/* Styles pour les téléphones (largeur d'écran jusqu'à 480px) */
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 0; /* Réduisez la marge intérieure pour les téléphones */
+    }
+
+    .h1-content {
+        font-size: 1.2em; /* Réduisez davantage la taille de la police pour les téléphones */
+    }
+
+    .imgpauline {
+        max-width: 100%; /* La largeur maximale de l'image sera de 100% de la largeur de son conteneur pour les téléphones */
+        height: auto; /* Assurez-vous que l'aspect ratio de l'image est conservé */
+    }
+}

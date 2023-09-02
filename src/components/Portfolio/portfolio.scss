@@ -53,18 +53,37 @@
     box-shadow: 0 1px 2px rgb(0, 0, 0);
 }
 
-@media screen and (min-width: 768px)and (max-width: 980px){
-
-   
-}
-
-@media screen and (max-width: 768px){
+/* Styles pour les tablettes (largeur d'écran jusqu'à 768px) */
+@media (max-width: 768px) {
     .portfolio {
-        width: 100%;
-        margin: 10px;
+        width: 90%; /* Ajustez la largeur pour s'adapter aux tablettes */
+        padding: 20px; /* Réduisez la marge intérieure pour les tablettes */
     }
 
-    .portfolio img {
-        width: 100%;
+    .description{
+        padding: 0;
+    }
+    
+    .technosTags button {
+        margin: 10px; /* Réduisez la marge pour les tablettes */
+    }
+}
+
+/* Styles pour les téléphones (largeur d'écran jusqu'à 480px) */
+@media (max-width: 480px) {
+    .portfolio {
+        width: 90%; /* Ajustez la largeur pour s'adapter aux téléphones */
+        padding: 20px; /* Réduisez la marge intérieure pour les téléphones */
+    }
+
+    
+    .portfolio a {
+        margin: 20px; /* Réduisez l'espacement des côtés pour les téléphones */
+    }
+
+    .technosTags button {
+        margin: 0 5px 20px 5px; /* Réduisez la marge pour les téléphones */
+        width: 30%;
+
     }
 }

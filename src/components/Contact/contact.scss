@@ -39,3 +39,12 @@
     margin: 0 10px 0 10px;
 }
   
+
+@media (max-width: 480px) {
+
+    .contact-form input[type="text"],
+.contact-form textarea {
+    width: 80%;
+}
+
+}
