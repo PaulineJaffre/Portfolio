@@ -24,6 +24,7 @@
     .main {
         padding: 30px 0; /* Réduisez la marge intérieure pour les tablettes */
         text-align: center; /* Centrez le contenu */
+        flex-wrap: wrap;
     }
 
     .h1-content {
