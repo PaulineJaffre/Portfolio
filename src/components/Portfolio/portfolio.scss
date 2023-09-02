@@ -3,19 +3,17 @@
 
 .portfolio {
     width: 80%;
-    color: #ffff;
-    background-color: #ff2281;
+    color: #222288;;
+    background-color: #fee7f0;
     border-radius: 20px;
     padding: 30px;
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
     transition : box-shadow 0.2s ease-in-out;
-}
-
-.portfolio:hover{
     box-shadow: 0 2px 8px rgb(0, 0, 0);
 }
+
 
 
 .portfolio img {
@@ -26,7 +24,7 @@
 
 
 .portfolioTitle {
-    color: white;
+    color: #ff2281;
 }
 
 .description {
@@ -34,12 +32,15 @@
 }
 
 .lienGithub{
+    padding: 10px 50px;
     text-decoration: none;
     color: #ffff;
-    border: 2px solid #ffff;
+    //border: 2px solid #ffff;
     background-color: #ff2281;
     border-radius: 20px;
     width: 30%;
+    box-shadow: 0 1px 2px rgb(255, 255, 255);
+
 }
 
 
@@ -49,7 +50,7 @@
     border-radius: 20px;
     width: 15%;
     color: #222288;
-
+    box-shadow: 0 1px 2px rgb(0, 0, 0);
 }
 
 @media screen and (min-width: 768px)and (max-width: 980px){

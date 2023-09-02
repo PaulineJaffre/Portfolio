@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "fortawesome": "^0.0.1-security",
     "proptypes": "^1.1.0",
     "react": "^18.2.0",
     "react-collapsed": "^4.0.2",
@@ -16,7 +17,7 @@
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
     "sass": "^1.63.6",
-    "typescript":"^5.1.6",
+    "typescript": "^5.1.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

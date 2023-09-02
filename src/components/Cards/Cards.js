@@ -11,7 +11,7 @@ export default function Cards(){
 	
 
     return (
-        <div>
+        <div className='cards'>
             <div className='cardTitle'>
                 <h2 >Réalisations</h2>
             </div>

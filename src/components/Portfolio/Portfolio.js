@@ -1,7 +1,6 @@
 import 'src/components/Portfolio/portfolio.scss'
 import PropTypes from 'prop-types'
 
-
 export default function Portfolio(props) {
 
     const { title, image, description, lienGithub, technos } = props;
@@ -20,8 +19,8 @@ export default function Portfolio(props) {
                 )
             })}
         </div>
-        <button className='lienGithub' href={lienGithub} target="_blank" rel="noopener noreferrer">
-            Lien GitHub</button>
+        <a className='lienGithub' href={lienGithub} target="_blank" rel="noopener noreferrer">
+            Lien GitHub </a>
 
     </main>
     )
