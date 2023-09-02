@@ -1,6 +1,7 @@
 import 'src/components/Navbar/navbar.scss'
 import logo from 'src/assets/logoportfolio.png'
 import { Link } from 'react-router-dom'
+
  
 function NavBar() {
     return (
@@ -10,9 +11,9 @@ function NavBar() {
             </div>
             <nav className='navbar'>
                 <ul>
-                    <li><Link to="/About" className="navLink">A propos</Link></li>
-                    <li><Link to="/Cards" className="navLink">Portfolio</Link></li>
-                    <li><Link to="/Contact" className="navLink">Contact</Link></li>
+                    <li><Link to="About" className="navLink">A propos</Link></li>
+                    <li><Link to="Cards" className="navLink">Portfolio</Link></li>
+                    <li><Link to="Contact" className="navLink">Contact</Link></li>
                 </ul>
             </nav>
         </header>

@@ -1,5 +1,5 @@
 import 'src/components/Main/main.scss'
-
+import paulineimg from "src/assets/pauline.jpg"
 
 export default function Main(){
     return (
@@ -11,7 +11,7 @@ export default function Main(){
             <h1 className="h1-content no-after">et entrepreneure !</h1>
         </div>
         <div className="photo">
-            <img src="./assets/pauline.jpg" alt="photo pauline"  decoding="async" className="imgpauline" ></img>
+            <img src={paulineimg} alt="photo pauline" className="imgpauline" ></img>
         </div>
       </div>
     )
