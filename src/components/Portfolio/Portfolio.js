@@ -7,8 +7,8 @@ export default function Portfolio(props) {
 
    
     return (
-        <main className="portfolio">
-        <img src={image} alt="portfolioImage"/>
+        <main className="portfolio" >
+        <img src={image} alt="portfolioImage" />
 
         <h1>{title}</h1>
         <p className='description'>{description}</p>
@@ -29,7 +29,7 @@ export default function Portfolio(props) {
 Portfolio.propTypes = {
     id: PropTypes.string,
     title: PropTypes.string.isRequired,
-    image: PropTypes.string,
+    image: PropTypes.string.isRequired,
     description: PropTypes.string,
     lienGithub: PropTypes.string,
     technos: PropTypes.arrayOf(PropTypes.string),
